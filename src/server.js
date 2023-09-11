@@ -13,3 +13,5 @@ app.use(transactionRouter);
 const port = process.env.PORT;
 app.listen(port, () => console.log(`Server listening in port ${port}`));
 
+
+// npx nodemon src/server.js
